@@ -1,0 +1,3 @@
+venv
+yolo/yolov4-spn.weights
+__pycache__/
