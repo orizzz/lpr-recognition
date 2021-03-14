@@ -3,9 +3,9 @@ import numpy as np
 from function import crop_objects, recognize, write_image
 
 #load YOLO network
-weight = "./yolov3/yolov4-spn.weights"
-config = "./yolov3/yolov4-spn.cfg"
-classes_name = "./yolov3/plate.names"
+weight = "./yolo/yolov4-spn.weights"
+config = "./yolo/yolov4-spn.cfg"
+classes_name = "./yolo/plate.names"
 data_image = "data/motor1.jpg"
 save_path = "data/detected/"
 input_size = 416
